@@ -1,0 +1,26 @@
+{
+    "name": "drone",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "flybit": "github:htt0713/flybit#4d40027a56588b95eba2cd7ffbcdcd1c3f1a4132"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
+}
